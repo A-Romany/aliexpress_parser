@@ -14,5 +14,6 @@ public class Main {
 
         CsvWriter writer = new CsvWriter(CSV_FILE);
         writer.write(products);
+        System.out.printf("The products were successfully written to a file '%s'.", CSV_FILE);
     }
 }
